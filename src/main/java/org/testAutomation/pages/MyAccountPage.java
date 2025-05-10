@@ -99,6 +99,24 @@ public class MyAccountPage {
     @FindBy(xpath = "//a[contains(text(), 'New Address')]")
     private WebElement NewAddressButton;
 
+    @FindBy(xpath = "//input[contains(@id, 'input-firstname')]")
+    private WebElement FirstNameInputOnAddressBookPage;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-lastname')]")
+    private WebElement LastNameInputOnAddressBookPage;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-company')]")
+    private WebElement CompanyInputOnAddressBookPage;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-address-1')]")
+    private WebElement Address1InputOnAddressBookPage;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-address-2')]")
+    private WebElement Address2InputOnAddressBookPage;
+
+
+
+
 
 
 

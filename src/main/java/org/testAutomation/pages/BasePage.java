@@ -20,6 +20,7 @@ public class BasePage {
     }
 
     protected void waitForVisibility(WebElement element){
+
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
