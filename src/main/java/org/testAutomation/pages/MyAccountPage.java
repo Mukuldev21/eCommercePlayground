@@ -114,6 +114,80 @@ public class MyAccountPage {
     @FindBy(xpath = "//input[contains(@id, 'input-address-2')]")
     private WebElement Address2InputOnAddressBookPage;
 
+    @FindBy(xpath = "//input[contains(@id, 'input-city')]")
+    private WebElement CityInputOnAddressBookPage;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-postcode')]")
+    private WebElement PostCodeOnAddressBookPage;
+
+    @FindBy(xpath = "//select[contains(@id, 'input-country')]")
+    private WebElement CountryInputOnAddressBookPage;
+
+    @FindBy(xpath = "//select[contains(@id, 'input-zone')]")
+    private WebElement RegionInputOnAddressBookPage;
+
+    @FindBy(xpath = "(//input[@type='radio'])[1]")
+    private WebElement DefaultAddressYesButton;
+
+    @FindBy(xpath = "(//input[@type='radio'])[2]")
+    private WebElement DefaultAddressNoButton;
+
+    @FindBy(xpath = "//input[contains(@value,'Continue')]")
+    private WebElement ContinueButtonOnAddressBookPage;
+
+    @FindBy(xpath = "//a[contains(text(), 'Back')]")
+    private WebElement BackButtonOnAddressBookPage;
+
+    
+    //Locators for Your Wish List
+    @FindBy(xpath = "//h1[contains(text(), 'My Wish List')]")
+    private WebElement MyWishListHeader;
+
+    @FindBy(xpath = "//input[contains(@value,'Continue')]")
+    private WebElement ContinueButtonOnMyListPage;
+
+
+    //Locators for Newsletter Subscription
+    @FindBy(xpath= "//h1[contains(text(), 'Newsletter Subscription')]")
+    private WebElement NewsletterSubscriptionHeader;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-newsletter-yes')]")
+    private WebElement SubscribeNewsletterYesButton;
+
+    @FindBy(xpath = "//input[contains(@id, 'input-newsletter-no')]")
+    private WebElement SubscribeNewsletterNoButton;
+
+    @FindBy(xpath = "//input[contains(@value,'Continue')]")
+    private WebElement ContinueButtonOnNewsletterSubscriptionPage;
+
+    @FindBy(xpath = "//a[contains(text(), 'Back')]")
+    private WebElement BackButtonOnNewsletterSubscriptionPage;
+
+
+    //Locators for View your order history
+    @FindBy(xpath = "//h1[contains(text(), 'Order History')]")
+    private WebElement OrderHistoryHeader;
+
+    @FindBy(xpath = "//a[contains(text(),'Continue')]")
+    private WebElement ContinueButtonOnOrderHistoryPage;
+
+
+    //Locators for Downloads
+    @FindBy(xpath = "//h1[contains(text(), 'Account Downloads')]")
+    private WebElement AccountDownloadsHeader;
+
+    @FindBy(xpath = "//a[contains(text(),'Continue')]")
+    private WebElement ContinueButtonOnOrderDownloadsPage;
+
+
+    //Locators for Your Reward Points
+    @FindBy(xpath = "//h1[contains(text(), 'Your Reward Points')]")
+    private WebElement YourRewardPointsHeader;
+
+    @FindBy(xpath = "//a[contains(text(), 'Continue')]")
+    private WebElement ContinueButtonOnRewardPointsPage;
+
+
 
 
 
